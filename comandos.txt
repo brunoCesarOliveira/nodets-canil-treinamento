@@ -1,0 +1,10 @@
+#002 Iniciando o projeto
+  npm init -y                                                                => Criando package.json
+  tsc --init                                                                 => Criando tsconfig.json
+  npm install express mustache--express dotenv                               => Dependências do sistema
+  npm install --save-dev @types/express @types/mustache-express @types/node  => Types de Dependências
+  npm install -g nodemon  typescript ts-node                                 => Dependências Globais
+  Configurar também tsconfig, README.md package.json
+
+#003 Criando um servidor             => server.ts
+#004-Criando rotas no controllers    => routers/index.ts
