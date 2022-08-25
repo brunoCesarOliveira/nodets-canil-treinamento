@@ -8,3 +8,12 @@
 
 #003 Criando um servidor             => server.ts
 #004-Criando rotas no controllers    => routers/index.ts
+
+#011- Colocando o projeto no ar 1 
+ npm install --save-dev copyfiles                                          => Instalando bibliotecas para copia do arquivos tsc
+  run postinstall                                                          => Gera os arquivos
+
+#011- Colocando o projeto no ar 1                                          => Os comando tem que ser rodado fora no vscode
+  https://dashboard.heroku.com/                                            => Instalar o heroku 
+  heroku login                                                             => rodar o comando para logar
+  heroku create
