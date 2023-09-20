@@ -1,8 +1,12 @@
+
 import { Router } from "express"
 import * as PageController from "../controllers/pageController"
 import * as searchController from "../controllers/searchController"
 
+// #04 Criando as rotas e controllers
 const router = Router()
+
+
 
 router.get("/", PageController.home)
 router.get("/dogs", PageController.dogs)

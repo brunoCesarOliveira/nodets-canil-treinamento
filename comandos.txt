@@ -18,3 +18,4 @@
   heroku login                                                             => rodar o comando para logar
   heroku create
   git push heroku main                                                     => Adiciona os arquivos e faz o commit para heroku
+  heroku open                                                              => Abri o projeto que já esta no ar

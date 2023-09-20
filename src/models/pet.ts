@@ -131,14 +131,17 @@ const data: Pet[] = [
 ]
 
 export const Pet = {
+  // Pegar todos os pets
   getAll: (): Pet[] => {
     return data
   },
 
+  // Filtrar pets por tipos 
   getFromType: (type: PetType): Pet[] => {
     return data.filter((item) => item.type === type)
   },
 
+  // Filtrar pets pelo nome
   getFromName: (name: string): Pet[] => {
     return data.filter(
       (item) => item.name.toLowerCase().indexOf(name.toLowerCase()) > -1

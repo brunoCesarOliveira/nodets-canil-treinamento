@@ -1,12 +1,14 @@
+{{! Organizando o partials  }}
 {{>partials/header}}
 
 {{#banner}}
-<section class="banner" style="background-image: url('images/{{background}}')">{{title}}</section>
-<h2>{{title}} disponíveis para adoção</h2>
+    <section class="banner" style="background-image: url('images/{{background}}')">{{title}}</section>
+    <h2>{{title}} disponíveis para adoção</h2>
 {{/banner}}
  
 
 <div class="container list">
+{{! Percorrendo all ista de animais  }}
 {{#list}}
     <div class="item">
         <img src="images/{{image}}" class="item--image" />
@@ -15,11 +17,13 @@
         <div class="item--genre">Gênero: {{sex}}</div>
     </div>
 {{/list}}
-{{^}}
+</div>
+
+{{^list}}
 <div class="container no-list">
     <h2>Não há animais disponíveis nestas condições.</h2>
 </div>
-{{/}}
+{{/list}}
 </div>
 
 {{>partials/footer}}

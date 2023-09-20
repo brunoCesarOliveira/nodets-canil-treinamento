@@ -1,3 +1,4 @@
+/* #07  Ativando Menu */
 type MenuOptions = "" | "all" | "dog" | "cat" | "fish"
 export const createMenuObject = (activeMenu: MenuOptions) => {
   let returnObject = {
